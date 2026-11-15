@@ -1,5 +1,5 @@
 ---
-title: O Navegador e o JavaScript
+title: Internet, Navegadores e JavaScript
 ---
 ## A Internet
 
@@ -15,7 +15,7 @@ Para simplificar, a Internet é apenas os computadores de outras pessoas. Não e
   <img src="{{ '/assets/images/intro/internet-01.jpg' | relative_url }}">
 </div>
 
-O processo é parecido para outros tipos de serviços, mas quando acessamos uma URL com nosso navegador, nosso computador envia uma solicitação para um desses servidores, pedindo um arquivo específico no endereço indicado. Solicitações feitas a URLs como `p5js.org` ou `nyu.edu` estão na verdade pedindo um arquivo chamado `index.html` que fica nos servidores de `p5js.org` (ou `nyu.edu`).
+O processo é parecido para outros tipos de serviços, mas quando acessamos uma URL com nosso navegador, nosso computador envia uma solicitação para um desses servidores, pedindo um arquivo específico no endereço indicado. Solicitações feitas a URLs como `p5js.org` ou `nyu.edu` estão na verdade pedindo um arquivo chamado `index.html` que fica nos servidores com enndereços `p5js.org` e `nyu.edu`.
 
 <div class="scaled-images">
   <img src="{{ '/assets/images/intro/request-00.jpg' | relative_url }}">
@@ -57,6 +57,7 @@ Boa parte desse conteúdo é texto e links, mas, na maioria das vezes, o arquivo
 </div>
 
 Outros tipos comuns de arquivos referenciados pelo `html` são os arquivos `css` e `JavaScript`. Eles são especiais porque, diferente dos arquivos de mídia que o navegador só precisa nos mostrar, são arquivos que mudam *como* o navegador exibe o conteúdo e como ele se comporta.
+
 Os arquivos `css` geralmente especificam o estilo das páginas web. Eles dizem ao navegador como formatar o conteúdo do arquivo `html`: quais fontes usar, qual tamanho o texto deve ter, as cores dos diferentes elementos, etc.
 
 <div class="scaled-images">
@@ -79,7 +80,7 @@ O JavaScript foi gradualmente permitindo que os sites se tornassem mais dinâmic
 
 Depois que um arquivo JavaScript (geralmente um arquivo `.js`) é baixado por uma página, e enquanto o arquivo `html` e o arquivo `css` terminam de definir como exibir o conteúdo da página, o navegador inicia um processo paralelo separado para ler e *interpretar* o conteúdo do arquivo JavaScript.
 
-Esse interpretador (ou motor) de JavaScript é uma parte interna do navegador responsável por percorrer o arquivo JavaScript linha por linha e executar seus comandos. É isso que significa o JavaScript ser uma linguagem *interpretada*: em vez de rodar diretamente no hardware do computador, um programa em JavaScript precisa de outro programa para executá-lo. Isso não é algo exclusivo do JavaScript, mas o diferencia de algumas linguagens de programação, e é algo que devemos ter em mente.
+Esse interpretador (ou *runtime*) de JavaScript é uma parte interna do navegador responsável por percorrer o arquivo JavaScript linha por linha e executar seus comandos. É isso que significa o JavaScript ser uma linguagem *interpretada*: em vez de rodar diretamente no hardware do computador, um programa em JavaScript precisa de outro programa para executá-lo. Isso não é algo exclusivo do JavaScript, mas o diferencia de algumas linguagens de programação, e é algo que devemos ter em mente.
 
 <div class="scaled-images">
   <img src="{{ '/assets/images/intro/JavaScript.jpg' | relative_url }}">
@@ -87,4 +88,4 @@ Esse interpretador (ou motor) de JavaScript é uma parte interna do navegador re
 
 Hoje em dia, o JavaScript é considerado uma linguagem robusta e de propósito geral, que pode ser usada para criar praticamente qualquer tipo de programa, dentro ou fora de um navegador (mas sempre com um interpretador). Por isso, podemos encontrar muitos recursos em forma de bibliotecas (código reutilizável) e frameworks (código reutilizável e metodologias predefinidas) que estendem a linguagem e facilitam a escrita de certos tipos de programas sem precisar começar do zero.
 
-O [p5js](https://p5js.org/) é um exemplo de biblioteca JavaScript. Ele é focado em creative coding e em facilitar para todos o aprendizado de como criar experiências interativas usando JavaScript.
+O [p5js](https://p5js.org/) é um exemplo de biblioteca JavaScript. Ele é focado em *creative coding* e em facilitar para todos o aprendizado de como criar experiências interativas usando JavaScript.

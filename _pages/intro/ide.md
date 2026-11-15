@@ -1,5 +1,5 @@
 ---
-title: Configurando um Ambiente de Desenvolvimento
+title: O Ambiente de Desenvolvimento
 ---
 ## IDE
 

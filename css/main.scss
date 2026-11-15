@@ -99,7 +99,7 @@ th {
     width: 100%;
     max-width: var(--desktop-max);
     margin: 0 auto;
-    margin-left: unquote("max(0%, (100% - var(--desktop-max)) / 2.3)");
+    margin-left: max(0%, (100% - var(--desktop-max)) / 2.3);
   }
 
   .body-section-content {
@@ -149,7 +149,7 @@ th {
 }
 
 .editor-block-wrapper {
-  width: unquote("max(100%, min(120%, 100vw - 20%))");
+  width: max(100%, min(120%, 100vw - 20%));
 
   .p5-editor-wrapper {
     --editor-height: 640px;
